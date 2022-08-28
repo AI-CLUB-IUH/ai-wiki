@@ -615,7 +615,7 @@ html {
       margin: 0;
 
       > :nth-child(1) {
-        @import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,700&family=Work+Sans:ital@0;1&display=swap');
+       
         font-family: 'Work Sans';//Arial, Helvetica, sans-serif;
         @include relative-font-size(4.2);
         letter-spacing: -1px;
