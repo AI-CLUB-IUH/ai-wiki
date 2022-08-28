@@ -615,8 +615,7 @@ html {
       margin: 0;
 
       > :nth-child(1) {
-       
-        font-family: 'Work Sans', Helvetica,Arial, sans-serif;
+        font-family: 'Work Sans', Helvetica,Arial, 'Times New Roman', Times, sans-serif;
         @include relative-font-size(4.2);
         letter-spacing: -1px;
         margin-bottom: 0.1em;
