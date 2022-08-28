@@ -46,7 +46,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   
 
 baseurl: "/ai-wiki" # the subpath of your site, e.g. /blog
-url: "https://ai-club-iuh.github.io/ai-wiki/" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://ai-club-iuh.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 favicon:  "https://raw.githubusercontent.com/AI-CLUB-IUH/ai-wiki-blog/master/assets/images/icons/h2.png" # the favicon for your site
 
 # Yat date format
@@ -198,7 +198,7 @@ paginate: 5
 
 utterances:
   repo: "AI-CLUB-IUH/ai-wiki-comments"
-  issue_term: "url"
+  issue_term: "title"
   label: "utterances comment"
   theme: "github-light"
   follow_site_theme: true
