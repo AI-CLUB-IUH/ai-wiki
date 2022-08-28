@@ -17,7 +17,7 @@
       {%- include functions.html func='get_reading_time' -%}
       {% assign reading_time = return %}
       {%- include functions.html func='get_article_excerpt' -%}
-      {% assign excerpt = return %}
+      {% assign excerpt = post.description %}
       {%- assign post_url = post.url | relative_url -%}
 
       <h2 class="post-title">
@@ -35,7 +35,8 @@
       </div>
       <a class="post-excerpt" href="{{ post_url }}">
         <p>
-          {{ excerpt }} <span class="read_more">Read More</span>
+          {{ excerpt }}
+          <!-- <span class="read_more">Read More</span> -->
         </p>
       </a>
       <div class="post-tags">

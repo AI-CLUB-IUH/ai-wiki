@@ -8,10 +8,9 @@ toc: true
 date:   2022-03-21 15:14:54
 usemathjax: true
 image: assets/images/1.jpg
+description: 'Trong bài viết này, chúng ta sẽ đi qua sơ lược về định nghĩa của Markov chain, từ đó hiểu thêm về Markov chain để ứng dụng vào một bài toán và thực nghiệm bằng Python. '
 published: true
 ---
-
-
 
 ## Nội dung
 - [1. Định nghĩa Markov chain](#-dinh-nghia)
