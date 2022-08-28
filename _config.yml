@@ -198,7 +198,7 @@ paginate: 5
 
 utterances:
   repo: "AI-CLUB-IUH/ai-wiki-comments"
-  issue_term: "title"
+  issue_term: "url"
   label: "utterances comment"
   theme: "github-light"
   follow_site_theme: true
